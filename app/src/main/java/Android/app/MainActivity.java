@@ -17,16 +17,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        final EditText editTextTexto = findViewById(R.id.et_texto);
-//        Button btnMostrar = findViewById(R.id.btn_mostrar);
-//
-//        btnMostrar.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Toast.makeText(MainActivity.this, editTextTexto.getText(), Toast.LENGTH_LONG).show();
-//            }
-//        });
-
         editName = (EditText) findViewById(R.id.et_name);
         editAge = (EditText) findViewById(R.id.et_age);
 //        Button show = (Button) findViewById(R.id.btnShow);

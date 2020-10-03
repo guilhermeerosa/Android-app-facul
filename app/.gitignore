@@ -1,4 +1,4 @@
 .libs
 /build
-.androidTest
-.test
+.androidTest/java/Android/app
+.test/java/Android/app

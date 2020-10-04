@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/et_name"
@@ -21,20 +21,29 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Digite sua idade"
-        android:inputType="textPersonName" />
+        android:inputType="number" />
 
-    <Button
-        android:id="@+id/btnShow"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickBtnShow"
-        android:text="Mostrar" />
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnClear"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="onClickBtnClear"
-        android:text="Limpar" />
+        <Button
+            android:id="@+id/btnShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickBtnShow"
+            android:text="Mostrar" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickBtnClear"
+            android:text="Limpar" />
+
+    </LinearLayout>
 
 </LinearLayout>
